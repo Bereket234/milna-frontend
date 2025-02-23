@@ -102,7 +102,7 @@ const PaymentForm = () => {
           className="checkout-button"
           onClick={() => setIsModalOpen(true)}
         >
-          Checkout
+          Book Now
         </button>
       </div>
 
