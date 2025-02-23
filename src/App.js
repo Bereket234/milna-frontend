@@ -1,13 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import AcceptHostedModal from "./AcceptHostedModal";
 import Success from "./Success";
+import PaymentForm from "./PaymentForm";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<AcceptHostedModal />} />
+        <Route path="/" element={<PaymentForm />} />
         <Route path="/success" element={<Success />} />
       </Routes>
     </Router>
